@@ -1,6 +1,6 @@
 # browsers-plugin
 
-This plugin provides following browsers to TestCafe tool when [playwright](https://www.npmjs.com/package/playwright) is installed:
+This browser plugin provides following browsers to TestCafe tool when [playwright](https://www.npmjs.com/package/playwright) is installed:
 
 - `chromium`
 - `chromium:headless`
@@ -11,14 +11,11 @@ This plugin provides following browsers to TestCafe tool when [playwright](https
 
 It also supports mobile device emulation (only with `chromium` and `webkit` engines).
 
-You can see all available browser aliases by running:
+here's command to view all available browser aliases by running on locally:
 
 ```
 testcafe -b playwright
 ```
-
-
-## install
 
 Package can be installed from [npm](https://www.npmjs.com/package/browsers-plugin):
 
