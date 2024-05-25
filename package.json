@@ -1,0 +1,17 @@
+{
+  "name": "browsers-plugin",
+  "version": "1.0.0",
+  "description": "playwright TestCafe browser provider plugin.",
+  "keywords": [
+    "browsers",
+    "plugin"
+  ],
+  "repository": "https://github.com/abushyedhu/browsers-plugin",
+  "homepage": "https://github.com/abushyedhu/browsers-plugin",
+  "license": "MIT",
+  "author": "abushyedhu",
+  "main": "index",
+  "peerDependencies": {
+    "playwright": "1.x"
+  }
+}
