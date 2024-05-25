@@ -1,7 +1,7 @@
 {
   "name": "browsers-plugin",
   "version": "0.0.1",
-  "description": "This is browser provider plugin using playwright",
+  "description": "This is browsers plugin using playwright",
   "keywords": [
     "browsers",
     "plugin"
