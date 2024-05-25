@@ -1,7 +1,7 @@
 {
   "name": "browsers-plugin",
-  "version": "1.0.0",
-  "description": "playwright TestCafe browser provider plugin.",
+  "version": "0.0.1",
+  "description": "This is browser provider plugin using playwright",
   "keywords": [
     "browsers",
     "plugin"
