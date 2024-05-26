@@ -1,4 +1,4 @@
-# browsers-plugin
+# testcafe-browsers-provider-playwright
 
 This browser plugin provides following browsers to TestCafe tool when [playwright](https://www.npmjs.com/package/playwright) is installed:
 
@@ -17,9 +17,9 @@ here's command to view all available browser aliases by running on locally:
 testcafe -b playwright
 ```
 
-Package can be installed from [npm](https://www.npmjs.com/package/browsers-plugin):
+Package can be installed from [npm](https://www.npmjs.com/package/testcafe-browsers-provider-playwright):
 
 ```
 npm install playwright --save-dev
-npm install browsers-plugin --save-dev
+npm install testcafe-browsers-provider-playwright --save-dev
 ```
