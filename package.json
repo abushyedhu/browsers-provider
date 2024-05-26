@@ -1,14 +1,14 @@
 {
-  "name": "testcafe-browsers-provider-playwright",
-  "version": "1.1.0",
-  "description": "playwright TestCafe browsers provider plugin.",
+  "name": "testcafe-browser-provider-plugin",
+  "version": "1.0.1",
+  "description": "This is browser plugin using playwright",
   "keywords": [
     "testcafe",
     "browser provider",
     "plugin"
   ],
-  "repository": "https://github.com/abushyedhu/testcafe-browsers-provider-playwright",
-  "homepage": "https://github.com/abushyedhu/testcafe-browsers-provider-playwright",
+  "repository": "https://github.com/abushyedhu/testcafe-browser-provider-plugin",
+  "homepage": "https://github.com/abushyedhu/testcafe-browser-provider-plugin",
   "license": "MIT",
   "author": "abushyedhu",
   "main": "index",
