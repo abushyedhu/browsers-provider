@@ -1,4 +1,4 @@
-const tool = require('playwright');
+const browserplugin = require('playwright');
 
 module.exports = {
 
@@ -16,7 +16,7 @@ module.exports = {
     });
 
     this.mobileBrowsers.forEach(browser => {
-      Object.keys(tool.devices).forEach(device => {
+      Object.keys(browserplugin.devices).forEach(device => {
         browsers.push(`${browser}:emulation:device=${device}`);
         browsers.push(`${browser}:headless:emulation:device=${device}`);
       });
@@ -40,9 +40,9 @@ module.exports = {
     const emulationDeviceMatch = browserName.match("^.+:emulation:device=(?<device>.+)$");
     let emulationDevice = {}
     if (emulationDeviceMatch && emulationDeviceMatch.groups && emulationDeviceMatch.groups.device) {
-      emulationDevice = tool.devices[emulationDeviceMatch.groups.device]
+      emulationDevice = browserplugin.devices[emulationDeviceMatch.groups.device]
     }
-    const browser = await tool[browserEngine].launch({ headless: !!runHeadless });
+    const browser = await browserplugin[browserEngine].launch({ headless: !!runHeadless });
     const context = await browser.newContext({...emulationDevice});
     const page = await context.newPage();
 
