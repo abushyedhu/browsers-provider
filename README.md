@@ -14,7 +14,7 @@ It also supports mobile device emulation (only with `chromium` and `webkit` engi
 here's command to view all available browser aliases by running on locally:
 
 ```
-testcafe -b playwright
+testcafe -b browserplugin
 ```
 
 Package can be installed from [npm](https://www.npmjs.com/package/testcafe-browser-provider-plugin):
