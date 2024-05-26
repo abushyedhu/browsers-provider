@@ -14,7 +14,7 @@ It also supports mobile device emulation (only with `chromium` and `webkit` engi
 here's command to view all available browser aliases by running on locally:
 
 ```
-testcafe -b browserplugin
+testcafe -b plugin
 ```
 
 Package can be installed from [npm](https://www.npmjs.com/package/testcafe-browser-provider-plugin):
